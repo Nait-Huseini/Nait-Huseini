@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(126, 123, 123);
+  box-sizing: border-box;
+}
+
+/* Extra Small & Small (Mobile) */
+@media screen and (max-width: 576px) {
+
+  }
+  .about-text {
+    width: 100%;
+    display: flex;
+    color: whitesmoke;
+    font-size: 10px;
+  }
+  .footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 25px;
+  }
+  .contact-info h2,p {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .socials {
+    align-items:center;
+    justify-content: center;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+/* Medium (Tablet) */
+@media screen and (max-width: 768px) {}
+
+/* Large, Extra Large, Extra Extra Large (Monitor screens)*/
+@media screen and (min-width: 769px) {}
+
+.navmenu {
+  width: 100%;
+  display: flex;
+  height: 80px;
+  color: whitesmoke;
+  background: rgb(50, 48, 48);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}  
+
+.navmenu a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 1rem;
+  font-family: Tahoma;
+}
+
+.toggle-btn  {
+  background-color: red;
+  width: 35px;
+  float: right; 
+  display: none;
+}
+
+.toggle-btn span {
+  display: inline-block;
+
+}
+
+.navmenu a:hover {
+  color: rgb(180, 173, 173);
+  transition: 0.5s;
+}
+
+.paragraph {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(122, 119, 119);
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Oswald';
+  margin: 15px;
+}
+
+.mainphoto img {
+  width: 100%;
+  display: flex;
+}
+
+.home-header {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  height: 25px;
+  font-family:'Trebuchet MS';
+}
+
+.section {
+  display: flex;
+  width: 100%;
+  background-color: #3e3c3c;
+}
+
+.container2 {
+  width: 80%;
+  margin: auto;
+}
+
+.about-header {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 1px;
+  padding: 12px;
+  left: 700px;
+}
+
+.about-text {
+  font-size: 20px;
+  color: rgb(203, 196, 196);
+  align-items: start;
+  font-family: 'ubuntu';
+  font-weight: bold;
+}
+
+.image-section img {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  border: 10px solid rgba(126, 125, 125, 0.658);
+  border-radius: 15px;
+  box-shadow: 1px 2px 2px 1px rgb(255, 255, 255);
+}
+
+.content p {
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+} 
+
+.myskills-text {
+  font-size: 28px;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.skills {
+  font-family:sans-serif;
+  background-color: rgba(40, 40, 40, 0.973);
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 14px 28px rgb(0, 0, 0),0 10px 10px rgb(0, 0, 0);
+}
+
+.skills ul  {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  display: flex;
+  background: #999a9c;
+  height: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgb(255, 255, 255), 0 3px 3px rgba(255, 255, 255, 0.24);
+}
+
+.bar span { 
+  border-radius: 20px;
+  float: left;
+  height: 20px;
+  background: linear-gradient(135deg, rgb(125, 124, 123)0%, rgb(55, 55, 57)100%);
+}
+
+.html {
+  width: 100%;
+  animation: normal html;
+}
+
+.css {
+  width: 100%;
+  animation: normal css;
+}
+
+.Design {
+  width: 100%;
+  animation: normal Github;
+}
+
+.contact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container h2 {
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f8f9fab2;
+  color: #333;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px #bbb;
+}
+
+button {
+  margin-left: 30px;
+  padding: 12px 24px;
+  background-color: #4b4a4a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #000000a2;
+}
+
+.contact-info  {
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-bottom: 83px;
+}
+
+.contact-info p:hover {
+  color: black;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #343538;
+  padding-top: 40px;
+  color: #ffffff;
+}
+
+.footer-container {
+  background-color: #343538;
+  padding-bottom: 30px;
+}
+
+.footer {
+  background-color: #343538;
+  color: #fff;
+}
+
+.footer-heading {
+  margin: 15px;
+  text-align: center;
+}
+
+.footer-heading a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 8px;
+  display: block;
+  margin: 19px;
+}
+
+.footer-heading a:hover {
+  color: red;
+  transition: 0.3s ease-out;
+}
+
+.footer-email-form   {
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+ #footer-email {
+  text-align: center;
+  justify-content:center;
+  width: 150px;
+  height: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-bottom: 17px;
+  font-size: 14px;
+
+}
+
+#footer-email::placeholder {
+  color: #646060;
+}
+
+#footer-email-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #f9423D;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: #337af1;
+  transition: all 0.4s ease-out;
+}
+
+.socials {
+  display: flex;
+  letter-spacing: 5px;
+  font-size: 25px;
+  color: red;
+
+}
+
+.socials li {
+  list-style-type: none;
+  color: #7a2323;
+}
+
+.socials li a {
+  color: rgb(201, 198, 198);
+  align-items: center;
+
+} 
